@@ -1,116 +1,36 @@
-import { useState } from 'react';
-
-function Square({ value, onSquareClick }) {
-	return (
-		<button className="square" onClick={onSquareClick}>
-			{value}
-		</button>
-	);
+export default function App() {
+	return <>
+		<HeroSection />
+		
+	</>;
 }
 
-function Board({ xIsNext, squares, onPlay }) {
-	function handleClick(i) {
-		if (calculateWinner(squares) || squares[i]) {
-			return;
-		}
-		const nextSquares = squares.slice();
-		if (xIsNext) {
-			nextSquares[i] = 'X';
-		} else {
-			nextSquares[i] = 'O';
-		}
-		onPlay(nextSquares);
-	}
-
-	const winner = calculateWinner(squares);
-	let status;
-	if (winner) {
-		status = 'Winner: ' + winner;
-	} else {
-		status = 'Next player: ' + (xIsNext ? 'X' : 'O');
-	}
-
+function HeroSection() {
 	return (
-		<>
-			<div className="status">{status}</div>
-			<div className="board-row">
-				<Square value={squares[0]} onSquareClick={() => handleClick(0)} />
-				<Square value={squares[1]} onSquareClick={() => handleClick(1)} />
-				<Square value={squares[2]} onSquareClick={() => handleClick(2)} />
+		<section className="flex flex-col-reverse md:flex-row items-center justify-between p-8 bg-gray-100">
+			{/* Text Content */}
+			<div className="md:w-1/2 text-center md:text-left">
+				<h1 className="text-4xl font-bold mb-4">Your Catchy Headline</h1>
+				<p className="text-lg mb-6">
+					A brief description of your portfolio or services. Highlight what makes you stand out.
+				</p>
+				<a
+					href="#projects"
+					className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+				>
+					View My Work
+				</a>
 			</div>
-			<div className="board-row">
-				<Square value={squares[3]} onSquareClick={() => handleClick(3)} />
-				<Square value={squares[4]} onSquareClick={() => handleClick(4)} />
-				<Square value={squares[5]} onSquareClick={() => handleClick(5)} />
+
+			{/* Image */}
+			<div className="md:w-1/2 mb-8 md:mb-0">
+				<img
+					src="path-to-your-image.jpg"
+					alt="Description of image"
+					className="w-full h-auto object-cover fade-in"
+				/>
 			</div>
-			<div className="board-row">
-				<Square value={squares[6]} onSquareClick={() => handleClick(6)} />
-				<Square value={squares[7]} onSquareClick={() => handleClick(7)} />
-				<Square value={squares[8]} onSquareClick={() => handleClick(8)} />
-			</div>
-		</>
+		</section>
 	);
-}
-
-export default function Game() {
-	const [history, setHistory] = useState([Array(9).fill(null)]);
-	const [currentMove, setCurrentMove] = useState(0);
-	const xIsNext = currentMove % 2 === 0;
-	const currentSquares = history[currentMove];
-
-	function handlePlay(nextSquares) {
-		const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];
-		setHistory(nextHistory);
-		setCurrentMove(nextHistory.length - 1);
-	}
-
-	function jumpTo(nextMove) {
-		setCurrentMove(nextMove);
-	}
-
-	const moves = history.map((squares, move) => {
-		let description;
-		if (move > 0) {
-			description = 'Go to move #' + move;
-		} else {
-			description = 'Go to game start';
-		}
-		return (
-			<li key={move}>
-				<button onClick={() => jumpTo(move)}>{description}</button>
-			</li>
-		);
-	});
-
-	return (
-		<div className="game">
-			<div className="game-board">
-				<Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
-			</div>
-			<div className="game-info">
-				<ol>{moves}</ol>
-			</div>
-		</div>
-	);
-}
-
-function calculateWinner(squares) {
-	const lines = [
-		[0, 1, 2],
-		[3, 4, 5],
-		[6, 7, 8],
-		[0, 3, 6],
-		[1, 4, 7],
-		[2, 5, 8],
-		[0, 4, 8],
-		[2, 4, 6],
-	];
-	for (let i = 0; i < lines.length; i++) {
-		const [a, b, c] = lines[i];
-		if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-			return squares[a];
-		}
-	}
-	return null;
 }
 
