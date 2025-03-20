@@ -1,51 +1,24 @@
-# Hi there 👋
-## 🎓 I'm A 15 Year Old Java Programmer, Minecrafter, Computer Enthusiast And A Creator!!
-- ✍ You can find my projects [here](https://github.com/hridakh?tab=repositories)
-- 🔭 I’m currently working on a ***LOT*** .
-- 🌱 I’m currently attempting to do frontend withput pain!
-- 👯 I’m looking to collaborate on any project, even open source
-- 💬 Ask me about... Backend
-- 😄 Pronouns: He/Him/His
-- ⚡ Fun fact: I'm a trilingual(English, Hindi, Punjabi) And i am coding since Grade 4
+# Hi there! 👋 I'm Hriday
 
-## Skills:
+Welcome to my GitHub profile! I'm a passionate developer interested in **java, python and currently learning react**. I love building cool projects, exploring new technologies, and sharing what I learn. 🚀  
 
-#### Expert: 
-- Java
-- Python
-- HTML
-- JSP
-- Bootstrap
+## 🚀 About Me
+- 🖥️ **Tech Stack:** Java, Python, JavaScript, React (learning), Tailwind (learning), TypeScript (soon)
+- ⚡ **Interests:** Linux, Minecraft, and full-stack development  
+- 🎯 **Current Goal:** Building my **personal landing page** & improving my **React & TypeScript skills**  
+- 🏆 **Achievements:**  
+  - 🥈 2nd place in ICSO Twice in a row (Hosted by SOF)  
+  - 🥇 1st place in a coding competition (Spring Dales Senir School, amritsar)  
+  - 🥉 3rd place in python coding competition (METAVERSE V2 at DCM YES, Ludhiana)  
 
-#### Intermediate: 
-- PHP
-- Linux
-- Git
-- Github
-- MySQL
-- CSS
+## 📌 Projects
+- 🔗 [Personal Landing Page](https://github.com/hridaykh/hridaykh)  
 
-#### Begineer: 
-- Docker
-- VMs
-- Bash/Batch
-- jQuery
+## 📫 Connect with Me  
+- 🌍 **Website:** [yourdomain.com](https://hriday.tech/) (in progress)  
+- 💼 **LinkedIn:** [linkedin.com/in/hridaykhanna](https://linkedin.com/in/hridaykhanna)
+- 📧 **Email:** [hridaykh1234@gmail.com](mailto:hridaykh1234@gmail.com)
 
-## ⚙️ My Stack: [Jack++](https://github.com/hridakh/Techstack)
+---
 
-## Talk with me, I am kinda awesome:
-[<img align="left" alt="holisitc_developer | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="holisitc_developer | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="holisitc_developer | Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
-[<img align="left" alt="holisitc_developer | gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]  
-<br/>
-## :trophy: Stats 'n Stuff  
-![Top 5 Languages](https://github-readme-stats.vercel.app/api/top-langs?username=hridakh&show_icons=true&locale=en&layout=compact)
-![Stats](https://github-readme-stats.vercel.app/api?username=hridakh&show_icons=true&locale=en)
-![Readme](https://github-readme-streak-stats.herokuapp.com/?user=hridakh&)
-![Github Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hridakh&theme=github_dark) 
-
-[twitter]: https://www.whitter.com/hridakhReal/
-[youtube]: https://www.youtube.com/@hridakh/
-[github]: https://www.github.com/hridakh/
-[gmail]: mailto:hridaykh1234@gmail.com
+💡 Always learning, always building! If you have cool ideas, let’s collaborate. 🤝  
