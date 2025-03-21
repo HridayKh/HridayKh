@@ -1,27 +1,14 @@
 :root {
     --prm: #FF6B00;
-    --prm-light: #FF9100;
-    --prm-dark: #C45000;
 
     --scd: #00E5FF;
-    --scd-light: #5CFFFF;
-    --scd-dark: #0095A8;
 
     --bg: #0D0D0D;
-    --bg-light: #1A1A1A;
     --bg-dark: #050505;
 
     --text: #bebebe;
-    --text-muted: #B0B0B0;
-    --text-inverted: #0D0D0D;
 
     --acc: #FFD700;
-    --acc-light: #e0c644;
-    --acc-dark: #74630b;
-
-    --err: #FF3B3B;
-    --success: #4CAF50;
-    --warn: #FF9800;
 }
 
 * {
@@ -31,7 +18,10 @@
     font-family: Consolas, monospace;
 }
 
-/* Add this to your CSS file */
+body{
+    background-color: var(--bg-dark);
+}
+
 .main {
 	display: flex;
 	gap: 2em;
@@ -62,7 +52,7 @@
     font-size: 1.5em;
     border: 2px solid transparent;
     border-radius: 10px;
-    box-shadow: 0 0 10px var(--acc-dark);
+    box-shadow: 0 0 10px var(--acc);
     /* Glowing effect */
 }
 
@@ -70,14 +60,14 @@
 
 .link {
     text-decoration: none;
-    color: var(--prm-light);
+    color: var(--prm);
     font-weight: bold;
     font-size: 1em;
     padding-top: 1em;
 }
 
 .link:hover {
-    color: var(--scd-light);
+    color: var(--scd);
     text-decoration: underline;
 }
 
