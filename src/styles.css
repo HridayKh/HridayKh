@@ -11,16 +11,13 @@
     --bg-light: #1A1A1A;
     --bg-dark: #050505;
 
-    --text: #E0E0E0;
+    --text: #bebebe;
     --text-muted: #B0B0B0;
     --text-inverted: #0D0D0D;
 
     --acc: #FFD700;
-    /* Gold */
-    --acc-light: #FFEE99;
-    /* Lighter Gold */
-    --acc-dark: #B38F00;
-    /* Darker Gold */
+    --acc-light: #e0c644;
+    --acc-dark: #74630b;
 
     --err: #FF3B3B;
     --success: #4CAF50;
@@ -44,6 +41,8 @@
     min-height: 100vh;
 }
 
+
+
 .col {
     display: flex;
     flex-direction: column;
@@ -54,7 +53,6 @@
     flex-basis: auto;
 
 }
-
 
 .col>div {
     background-color: var(--bg);
@@ -67,23 +65,41 @@
     /* Glowing effect */
 }
 
+
+
 .link {
     text-decoration: none;
-    /* Removes underline */
-    color: var(--prm);
-    /* Uses your theme color */
+    color: var(--prm-light);
     font-weight: bold;
-    /* Makes text bold */
     font-size: 1em;
-    /* Adjust size */
+    padding-top: 1em;
 }
 
 .link:hover {
-    color: var(--scd);
-    /* Changes color on hover */
+    color: var(--scd-light);
     text-decoration: underline;
-    /* Adds underline on hover */
 }
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--acc);
+    margin: 20px auto;
+}
+
 
 
 @media (max-width: 768px) {

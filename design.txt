@@ -8,7 +8,7 @@ https://marc.dev/
 
 
 design:
-left side: about links, experience, education/awards/certications, documentation/boilerplate (misc)
+left side: links, experience, education/awards/certications, documentation/boilerplate (misc)
 right side: about me, projects (open dropdowns), blogs (open dropdowns)
 
 theme:
