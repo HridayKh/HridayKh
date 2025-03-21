@@ -1,0 +1,28 @@
+inspirations:
+
+layout:
+https://sdsanchezm.github.io/
+
+theme:
+https://sebbie-chanzu.vercel.app/
+
+blog:
+https://marc.dev/
+
+
+
+design:
+
+left side: about links, experience, education/awards/certications, documentation/boilerplate (misc)
+
+right side: about me, projects (open dropdowns), blogs (open dropdowns)
+
+
+theme:
+Theme: Dark mode/minimalist
+Primary Background: Dark gray/black
+Text Color: White for high contrast
+Accent Colors: Shades of blue and green (for links, buttons, highlights)
+Design Style: Clean, modern, and professional
+Typography: Simple and readable fonts, geist ig
+Layout: Well-structured with clear section

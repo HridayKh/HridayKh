@@ -1,36 +1,19 @@
 export default function App() {
 	return <>
 		<HeroSection />
-		
+
 	</>;
 }
 
 function HeroSection() {
-	return (
-		<section className="flex flex-col-reverse md:flex-row items-center justify-between p-8 bg-gray-100">
-			{/* Text Content */}
-			<div className="md:w-1/2 text-center md:text-left">
-				<h1 className="text-4xl font-bold mb-4">Your Catchy Headline</h1>
-				<p className="text-lg mb-6">
-					A brief description of your portfolio or services. Highlight what makes you stand out.
-				</p>
-				<a
-					href="#projects"
-					className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
-				>
-					View My Work
-				</a>
+	return <>
+		<div class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+			<img class="size-12 shrink-0" src="/img/logo.svg" alt="ChitChat Logo" />
+			<div>
+				<div class="text-xl font-medium text-black dark:text-white">ChitChat</div>
+				<p class="text-gray-500 dark:text-gray-400">You have a new message!</p>
 			</div>
-
-			{/* Image */}
-			<div className="md:w-1/2 mb-8 md:mb-0">
-				<img
-					src="path-to-your-image.jpg"
-					alt="Description of image"
-					className="w-full h-auto object-cover fade-in"
-				/>
-			</div>
-		</section>
-	);
+		</div>
+	</>;
 }
 
