@@ -1,6 +1,19 @@
 export default function App() {
 	return <>
-		<HeroSection />
+
+		<div class="main">
+			<div class="col">
+				<div>Item 1</div>
+				<div>Item 2</div>
+				<div>Item 3</div>
+			</div>
+			<div class="col">
+				<div>Item A</div>
+				<div>Item B</div>
+				<div>Item C</div>
+			</div>
+		</div>
+
 
 	</>;
 }

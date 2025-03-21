@@ -1,0 +1,55 @@
+/* Remove default margin and padding from the whole page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding/borders don’t affect the size */
+}
+
+/* Full-page container */
+.main {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Keeps columns side by side */
+    align-items: flex-start; /* Aligns columns at the top */
+    flex-wrap: nowrap; /* Prevents columns from wrapping to a new line */
+    background-color: DodgerBlue; /* Sets background color */
+    border: 0.3em solid purple; /* Adds a purple border */
+    padding: 2%; /* Adds internal spacing */
+    width: 100vw; /* Ensures full width of viewport */
+    min-height: 100vh; /* Ensures it takes the full viewport height */
+    gap: 2%; /* Adds spacing between columns */
+}
+
+/* Column styling */
+.col {
+    display: flex; /* Enables Flexbox inside the column */
+    flex-direction: column; /* Stacks items vertically */
+    flex: 1; /* Ensures both columns are equal in width */
+    background-color: black; /* Sets background color */
+    padding: 2%; /* Adds internal spacing */
+    border: 0.3em solid red; /* Adds red border */
+    min-width: 300px; /* Prevents columns from shrinking too much */
+    max-width: 48%; /* Ensures columns don’t exceed half the container width */
+}
+
+/* Styling for items inside each column */
+.col > div {
+    background-color: green; /* Sets background color */
+    margin: 0.5em; /* Adds space around each item */
+    padding: 1em; /* Adds internal spacing */
+    font-size: 1.5em; /* Adjusts text size */
+    border: 0.1em solid black; /* Adds black border */
+    text-align: center; /* Centers text */
+}
+
+/* Responsive Layout for Small Screens */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column; /* Stacks columns vertically */
+        align-items: center; /* Centers the columns */
+    }
+
+    .col {
+        flex: 1 1 100%; /* Makes each column take full width */
+        max-width: 90%; /* Ensures columns don’t get too wide */
+    }
+}
