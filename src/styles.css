@@ -31,28 +31,29 @@
     font-family: Consolas, monospace;
 }
 
+/* Add this to your CSS file */
 .main {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+	display: flex;
+	gap: 2em;
+	width: 100%;
+	padding: 2em;
     background-color: var(--bg-dark);
-    width: 100vw;
-    min-height: 100vh;
 }
-
-
 
 .col {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--bg-dark);
-    padding: 1%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
-
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
 }
+
+.left-col {
+	flex: 1.5; /* Make this column wider */
+}
+
+.right-col {
+	flex: 3; /* Adjust this column proportionally */
+}
+
 
 .col>div {
     background-color: var(--bg);
