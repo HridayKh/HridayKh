@@ -12,7 +12,6 @@ left side: about links, experience, education/awards/certications, documentation
 right side: about me, projects (open dropdowns), blogs (open dropdowns)
 
 theme:
-Theme: Dark mode/minimalist
 Primary Background: Dark gray/black
 Text Color: White for high contrast
 Accent Colors: Shades of blue and green (for links, buttons, highlights)
