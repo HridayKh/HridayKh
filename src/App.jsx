@@ -28,10 +28,10 @@ function Links() {
 					<a href="mailo:hridaykh@gmail.com" className="link"> <Mail size={"1em"} /> hridaykh@gmail.com </a>
 				</li>
 				<li>
-					<a href="#" className="link"> <Linkedin size={"1em"} /> LinkedIn </a>
+					<a href="https://www.linkedin.com/in/hridaykhanna" className="link"> <Linkedin size={"1em"} /> LinkedIn </a>
 				</li>
 				<li>
-					<a href="#" className="link"> <Github size={"1em"} /> GitHub </a>
+					<a href="https://github.com/hridaykh/" className="link"> <Github size={"1em"} /> GitHub </a>
 				</li>
 				<li>
 					<a href="#" className="link"> <NotebookText size={"1em"} /> Blogs </a>
@@ -305,7 +305,6 @@ function Certifications() {
 	);
 }
 
-// Award Component
 function Award({ title, organization, year, description }) {
 	return (
 		<div style={{ marginBottom: "1.5em" }}>
