@@ -18,3 +18,14 @@ Accent Colors: Shades of blue and green (for links, buttons, highlights)
 Design Style: Clean, modern, and professional
 Typography: Simple and readable fonts, geist ig
 Layout: Well-structured with clear section
+
+Certified Java Developer
+Oracle | 2022
+
+Successfully completed Oracle’s Java certification program.
+Proficient in Java programming and object-oriented concepts.
+Frontend Web Development Certificate
+FreeCodeCamp | 2023
+
+Earned certification by completing over 300 hours of hands-on frontend development training.
+Focused on responsive design, JavaScript, and accessibility.
