@@ -12,13 +12,13 @@ Welcome to my GitHub profile! I'm a passionate developer interested in **java, p
   - 🥉 3rd place in python coding competition (METAVERSE V2 at DCM YES, Ludhiana)  
 
 ## 📌 Projects
-- 🔗 [Personal Landing Page](https://github.com/hridaykh/hridaykh)  
+- 🔗 [Personal Landing Page](https://hriday.tech/)  
 
 ## 📫 Connect with Me  
-- 🌍 **Website:** [yourdomain.com](https://hriday.tech/) (in progress)  
+- 🌍 **Website:** [hriday.tech](https://hriday.tech/) (in progress)  
 - 💼 **LinkedIn:** [linkedin.com/in/hridaykhanna](https://linkedin.com/in/hridaykhanna)
 - 📧 **Email:** [hridaykh1234@gmail.com](mailto:hridaykh1234@gmail.com)
 
 ---
 
-💡 Always learning, always building! If you have cool ideas, let’s collaborate. 🤝  
+💡 Always learning, always building! If you have ideas, let’s collaborate. 🤝  
