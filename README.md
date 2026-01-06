@@ -1,81 +1,96 @@
-# 👋 Hey, I'm Hriday Khanna
+# 👋 Hi, I’m Hriday Khanna
 
-I'm a passionate and driven **software developer** based in Punjab, India — currently in Class 11 and already building production-ready apps. I specialize in **Java backend development**, **React frontends**, and setting up reliable **CI/CD pipelines** with **cloud deployments**.
+Backend-focused **Java developer** based in Punjab, India.  
+Currently in Class 11, learning by building and operating real systems.
 
-Always building. Always learning. Always improving. 🚀
+I care about correctness, system behavior over time, and understanding how backend frameworks actually work.
+
+---
+
+## 🧠 Current Focus
+- Java backend development (Servlets, Quarkus)
+- Long-running services & bots
+- Observability: structured logging & error tracking
+- CI/CD with GitHub Actions and self-hosted runners
 
 ---
 
 ## 💻 Tech Stack
 
-**Languages:**  
-Java, Python, SQL
+**Languages**  
+Java (main language) , Python (mainly scripting)
 
-**Backend:**  
-Java Servlets, REST APIs, JWT, OAuth 2.0, Maven, Apache Tomcat, Mailgun
+**Backend**  
+Java Servlets, Apache Tomcat, Quarkus (newer projects), REST APIs, JWT, OAuth 2.0, Maven
 
-**Frontend:**  
+**Observability**  
+Log4j2 / JBoss Logging, Sentry (error tracking)
+
+**Frontend**  
 React, HTML, CSS, Vanilla JS
 
-**DevOps & Tools:**  
-GitHub Actions, Docker, Linux, Git
+**DevOps & Infra**  
+GitHub Actions, Docker, Linux, Git  
+Self-hosted CI runners on Oracle Cloud VMs
 
-**Cloud & Databases:**  
-Oracle Cloud Infrastructure (OCI), Google Cloud Platform (GCP), PostgreSQL, MySQL, Supabase, PostgREST, OCI Buckets
-
----
-
-## 🛠️ Projects
-
-### 🔐 [Full-Stack Auth Service with CI/CD](https://github.com/HridayKh/auth-fullstack)
-A complete user authentication system deployed on OCI, featuring:
-- React frontend + Java Servlet backend
-- CI/CD pipeline via GitHub Actions
-- OAuth 2.0 with Google Sign-In & Email/Password auth
-- Dockerized backend deployed to Apache Tomcat  
-*Tech:* Java, React, PostgreSQL, Mailgun, Docker, OCI
+**Databases & Cloud**  
+PostgreSQL, MySQL, Supabase, PostgREST  
+Oracle Cloud Infrastructure (OCI), Google Cloud Platform (GCP)
 
 ---
 
-### 🤖 [Community Engagement Bot (`u/h-counter-bot`)](https://github.com/HridayKh/reddit-h-counter-bot)
-A lightweight Reddit bot built in pure Java with:
-- Custom API client for Reddit
-- Event-driven command handling
-- 1,000+ users served with 100% uptime since July 2025  
-*Tech:* Java, REST API, JSON
+## 🛠️ Selected Projects
+
+### 🤖 Community Engagement Bot — `u/h-counter-bot`
+A long-running Reddit bot focused on reliability and system behavior.
+- Pure Java implementation with a custom Reddit API client
+- Processes up to 1,000 comments per user
+- No unplanned downtime since deployment (July 2025)
+- Currently undergoing a major upgrade:
+  - Local caching & rate-limit optimization
+  - Persistence layer
+  - Observability improvements
+  - Web UI + public leaderboard
+
+*Tech:* Java, REST APIs, JSON, MySQL (WIP)
 
 ---
 
-## 🏆 Achievements
+### 🔐 Authentication Service (Personal Infrastructure)
+A backend authentication service built for reuse across personal projects.
+- Java Servlets running on Apache Tomcat
+- Email/password authentication + Google OAuth 2.0
+- CI/CD via GitHub Actions → self-hosted OCI runners
+- Structured logging and Sentry error tracking
+- Designed as infrastructure rather than a standalone UI product
 
-- 🥈 **2× ICSO Silver Medalist** – Science Olympiad Foundation  
-- 🥇 **1st Place** – Coding Competition, Spring Dales Senior School  
-- 🥉 **3rd Place** – Python Challenge, METAVERSE V2 at DCM YES Ludhiana
-
----
-
-## 📌 Portfolio
-
-Check out my personal site: [**hriday.tech**](https://hriday.tech/)
+*Tech:* Java, Servlets, PostgreSQL, Docker, OCI
 
 ---
 
-## 📫 Let’s Connect
-
-- 💼 [LinkedIn](https://linkedin.com/in/hridaykhanna)
-- 🧠 [GitHub](https://github.com/HridayKh)
-- 📧 [hridaykh1234@gmail.com](mailto:hridaykh1234@gmail.com)
-
----
-
-## 🧠 Quotes I Live By
-
-> “An idiot admires complexity, a genius admires simplicity.”  
-> — *Terry A. Davis*
-
-> “Code is like humor. When you have to explain it, it’s bad.”  
-> — *Cory House*
+### 📧 Personal Mail App (Quarkus, WIP)
+A backend-heavy mail application focused on architecture and correctness.
+- Built using **Quarkus**
+- Email sending via Mailgun
+- Incoming mail handled via webhooks (no SMTP implementation)
+- Emphasis on clean boundaries, observability and realibility
 
 ---
 
-_Thanks for stopping by!_ 🌟
+### 🔐 Secrets Management (Personal infra Tool)
+- Personal-use secrets store
+- CRUD operations with encryption
+- Persoanl infrastructure
+
+---
+
+## 🧪 Learning Projects
+- Minimal Java microframework (be4j) (reflection, annotations and internals exploration in great depth)
+
+---
+
+## 📌 Links
+- 🌐 Portfolio: https://HridayKh.in  
+- 💼 LinkedIn: https://linkedin.com/in/hridaykhanna  
+- 🧠 GitHub: https://github.com/HridayKh  
+- 📧 Email: hridaykh1234@gmail.com
