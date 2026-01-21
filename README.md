@@ -21,10 +21,10 @@ I care about correctness, system behavior over time, and understanding how backe
 Java (main language) , Python (mainly scripting)
 
 **Backend**  
-Java Servlets, Apache Tomcat, Quarkus (newer projects), REST APIs, JWT, OAuth 2.0, Maven
+Quarkus (newer projects), REST APIs, Java Servlets, Apache Tomcat, JWT, OAuth 2.0, Maven
 
 **Observability**  
-Log4j2 / JBoss Logging, Sentry (error tracking)
+Open Telemetry, Log4j2 / JBoss Logging, Sentry (error tracking)
 
 **Frontend**  
 React, HTML, CSS, Vanilla JS
@@ -52,7 +52,7 @@ A long-running Reddit bot focused on reliability and system behavior.
   - Observability improvements
   - Web UI + public leaderboard
 
-*Tech:* Java, REST APIs, JSON, MySQL (WIP)
+*Tech:* Quarkus, Java, REST APIs, JSON, MySQL (WIP)
 
 ---
 
@@ -64,7 +64,7 @@ A backend authentication service built for reuse across personal projects.
 - Structured logging and Sentry error tracking
 - Designed as infrastructure rather than a standalone UI product
 
-*Tech:* Java, Servlets, PostgreSQL, Docker, OCI
+*Tech:* Java, Servlets, MySQL, Docker, OCI
 
 ---
 
@@ -81,6 +81,8 @@ A backend-heavy mail application focused on architecture and correctness.
 - Personal-use secrets store
 - CRUD operations with encryption
 - Persoanl infrastructure
+
+*Tech:* Java, Servlets, MySQL, Docker, OCI
 
 ---
 
