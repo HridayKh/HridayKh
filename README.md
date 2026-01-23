@@ -55,8 +55,16 @@ A long-running Reddit bot focused on reliability and system behavior.
 *Tech:* Quarkus, Java, REST APIs, JSON, MySQL (WIP)
 
 ---
+### 📧 Personal Mail App (Quarkus, WIP)
+A backend-heavy mail application focused on architecture and correctness.
+- Built using **Quarkus**
+- Email sending via Mailgun
+- Incoming mail handled via webhooks (no SMTP implementation)
+- Emphasis on clean boundaries, observability and realibility
 
-### 🔐 Authentication Service (Personal Infrastructure)
+---
+
+### 🔐 Authentication Service (Personal Infrastructure) (ARCHIVED)
 A backend authentication service built for reuse across personal projects.
 - Java Servlets running on Apache Tomcat
 - Email/password authentication + Google OAuth 2.0
@@ -68,16 +76,8 @@ A backend authentication service built for reuse across personal projects.
 
 ---
 
-### 📧 Personal Mail App (Quarkus, WIP)
-A backend-heavy mail application focused on architecture and correctness.
-- Built using **Quarkus**
-- Email sending via Mailgun
-- Incoming mail handled via webhooks (no SMTP implementation)
-- Emphasis on clean boundaries, observability and realibility
 
----
-
-### 🔐 Secrets Management (Personal infra Tool)
+### 🔐 Secrets Management (Personal infra Tool) (ARCHIVED)
 - Personal-use secrets store
 - CRUD operations with encryption
 - Persoanl infrastructure
